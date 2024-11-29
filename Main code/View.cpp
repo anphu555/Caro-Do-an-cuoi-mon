@@ -110,6 +110,8 @@ int AskContinue()
     return toupper(getch());
 }
 
+//test 
+
 // void display(char board[][BOARD_SIZE]) {
 //     for (int i = 0; i < BOARD_SIZE; i++) {
 //         for (int j = 0; j < BOARD_SIZE; j++) {
