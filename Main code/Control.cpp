@@ -57,8 +57,8 @@ void moveWASD()
         // xet tung nut bam
         switch(_COMMAND) {
             case 27: { // phim esc la 27
-                ExitGame();
-                return;
+                InGameMenu();
+                break; // Changed from ExitGame() to open menu
             }
             // WASD cho X, mui ten cho O
             // nut danh luot X (_TURN true)

@@ -7,6 +7,6 @@ int _X, _Y;
 
 int main() {
     FixConsoleWindow();
-    StartGame();
-    moveWASD();
+    MenuHandler();
+    return 0;
 }

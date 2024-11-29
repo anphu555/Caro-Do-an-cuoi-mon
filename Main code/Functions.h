@@ -12,6 +12,10 @@
 #include <ctype.h>
 #include <iostream>
 #include <windows.h>
+#include <filesystem>
+#include <string>
+#include <vector>
+#include <fstream>
 using namespace std;
 
 struct Cursor {
@@ -53,7 +57,15 @@ int ProcessFinish(int);
 int AskContinue();
 
 
-// void veBanCo();
+//Menu
+void MenuHandler();
+void About();
+void loadGame();
+void saveGame();
+void Guide();
+void InGameMenu();
+vector<string> GetSaveFiles();
+string SelectSaveFile(bool);
 
 
 
