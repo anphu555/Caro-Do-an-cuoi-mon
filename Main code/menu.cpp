@@ -139,7 +139,6 @@ void InGameMenu() {
         }
         
         // input
-        //a
         int ch = getch();
         switch (ch) {
             case 'W':
